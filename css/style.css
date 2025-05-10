@@ -1,0 +1,537 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Goldman:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+  font-family: "Montserrat", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-family: "Goldman", sans-serif;
+   font-family: "Cookie", cursive;
+  
+*/
+*{
+    margin: 0;
+    padding: 0;
+} 
+img{
+    display: block;
+}
+
+body{
+    font: 400 18px/1.5 "Work Sans", sans-serif ;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style-type: none;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.lt{
+    float: left;
+}
+
+.rt{
+    float: right;
+}
+
+.clear{
+    clear: both;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*--------------------------------*/
+.panel{
+    padding: 120px 0;
+}
+.pageheader{
+    background: url(../images/bannerimage.png) no-repeat 100% 50% #fff;
+    height: 770px;
+    background-size: cover;
+    position: relative;    
+}
+.pageheader .navigations{
+    background-color: #000;
+    opacity: 0.8;
+    height: 110px;
+    width: 100%;
+
+}
+.navigations .container{
+    display: flex;
+    justify-content: space-between;
+}
+.navigations .logo{
+    padding-top: 20px;
+}
+.mainnav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; 
+    list-style-type: none;
+    padding-top: 45px;
+}
+.mainnav ul a{
+    font-size: 16px;
+    font-family:"Montserrat", sans-serif ; 
+    color: #c37558;
+} 
+.mainnav ul a:hover{
+    color: #fff;
+}
+
+.bannerContent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 109px;
+    background: url(../images/coffee-beans.png) no-repeat 0 0; 
+}
+
+.bannerContent{
+    padding-top: 90px;
+}
+
+
+
+.bannerContent h1{
+    margin: 0 0 0 0;
+    color: #e9dbd3;
+    font-size: 58px;
+    line-height: 70px;
+}
+
+.bannerContent h1 span{
+    display: block;
+    font-size: 108px;
+    line-height: 110px;
+    color: #c37558;
+}
+
+.bannerContent h1 strong{
+    font-size: 72px;
+    line-height: 93px;
+  
+}
+
+.bannerContent p{
+    width: 587px;
+    color: #999797;
+    margin: 22px 0;
+    line-height: 25px;
+    font-size: 13px; 
+    margin-bottom: 56px; 
+}
+.bannerContent a {
+    background-color: #b48773;
+    color: #fff;
+    border-radius: 30px;
+    padding: 18px 40px;
+
+}
+
+h2{
+    font-size: 48px;
+    font-family: "Goldman", sans-serif ;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+}
+.offer p{
+    font-size: 18px;
+    font-family: "Work Sans", sans-serif;
+    color: #5b5a5a;
+    text-align: center;
+    padding: 55px 80px;
+    font-weight: 350;
+    line-height: 28px; 
+}
+.offer .container ul{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+   
+   
+}
+
+
+.offer .container ul li{
+    text-align: center;
+  
+}
+.offer .container ul li img{
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+h3{
+    color: #3a3a3a;
+    font-size: 30px;
+    font-family: "Goldman", sans-serif;
+    padding-right: 10px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+.offer .container ul li p{
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Work Sans", sans-serif;
+    color: #5b5a5a;
+    padding: 0;
+   
+
+}
+a.btn{
+    background-color: #b48773;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 40px;
+   
+}
+
+.bestcoffee{
+    background: url(../images/background.png) no-repeat 100% 100% #f4f1ee;
+}
+
+
+.bestcoffee h2{
+    font-size: 36px;
+    font-family: "Goldman", sans-serif;
+    line-height: 48px;
+    text-align: left;
+    padding-bottom: 58px;
+    font-weight: 450;
+}
+
+.imgArea{
+    width: 50%;
+}
+
+.imgArea img{
+    width: 100%;
+}
+
+.textCont{
+    width: 45%;
+    padding-bottom: 130px;
+}
+.product{
+    position: relative;
+    height: 800px;
+}
+
+.product .imgArea{
+    position: absolute;
+    height: 659px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.product .textcont{
+    position: absolute;
+    width: 544px;
+    padding-bottom: 200px;
+    float: right;
+    box-sizing: border-box;
+    top: 200px;
+    right: 345px;
+
+
+
+}
+.product h2{
+    color: #fff;
+    font-size: 49px;
+    font-family:"Goldman", sans-serif ;
+    padding-bottom: 60px;
+    
+}
+
+.product p{
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    padding-bottom: 20px;
+
+
+}
+.product .textcont a{
+    color: #fff;
+    border-radius: 18px;
+    border-style: dashed;
+    background-color: #000;
+    
+}
+
+.testimonials{
+    background-color: #fff;
+    background: url(../images/cupwithbeans.png) no-repeat 100% 50%;
+}
+
+.testimonials .textCont{
+    width: 60%;
+    padding-bottom: 0;
+    
+}
+
+
+.testimonials h2{
+    font-size: 40px;
+    font-family: "Goldman", sans-serif;
+    text-align: left!important;
+
+}
+
+.testimonials p.clientTXT{
+    font-family: "Cookie", cursive;
+    font-size: 48px;
+    line-height: 55px;
+    color: #462b21;
+    font-weight: 200;
+    font-style: italic;
+    padding: 70px 0;
+    margin-top: 20px;
+    background: url(../images/coma-top.png) no-repeat 0 0, url(../images/coma-btm.png) no-repeat 100% 100%;
+  
+}
+
+.textarea{
+    display: flex;
+    justify-content: left;
+    padding-left: 200px;
+    color: #7b7b7b;
+    
+}
+.textarea p{
+    padding: 30px 0 0 10px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.textarea p span{
+    font-size: 20px;
+
+}
+
+.clientArea{
+    display: flex;
+    justify-content: left;
+}
+
+.clientArea figure{
+    width: 91px;
+    height: 91px;
+    border-radius: 100px;
+    border: solid 10px #fff;
+    outline: solid 1px #cfcbcb;
+    overflow: hidden;
+}
+
+.clientArea p{
+    margin: 25px 0 0 15px;
+}
+
+
+.store{
+    display: flex;
+    justify-content: space-between;
+}
+
+.store .textCont{
+    width: 40%;
+    padding-bottom: 0;
+}
+
+.map{
+    width: 60%;
+    border: solid 5px #fff;
+    border-radius: 5px;
+}
+
+.map iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+.store .textCont h2{
+    font-size: 50px;
+    font-family: "Goldman", sans-serif;
+    background-color:#f4f1ee;
+    text-align: left;
+    padding: 57px 45px;
+
+
+}
+.store .textCont ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.store .textCont img{
+    padding: 10px 47px;
+   
+}
+.store .textCont h4 {
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 650;
+    color: #7b7b7b;
+  
+  
+}
+.store .textCont p{
+    font-size: 18px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 550;
+    color: #7b7b7b;
+
+}
+
+.store .textCont i{
+    color: #eda130;
+
+}
+.store .textCont a{
+    padding: 6px 42px;
+  
+}
+.store .textCont .btn{
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+
+}
+
+.star{
+    padding: 20px 40px;
+}
+
+.star span{
+    display: block;
+    text-align: center;
+}
+
+.star a.btn{
+    margin-top: 10px;
+}
+
+
+.Newsletter{
+  background: url(../images/newslater.png) no-repeat 100% 50% #000;
+  height: 380px;
+}
+
+.Newsletter h2{
+    font-size: 36px;
+    color: #fff;
+    text-align: left;
+    padding-top: 80px ;
+    padding-bottom: 33px;
+
+}
+
+.frm input[type ="email"]{
+    background: none;
+    outline: 0;
+    border: 0;
+    
+}
+.frm{   
+    background-color: #393734;
+    color: #61605e;
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+    outline: solid 1px  #565553 ;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 16px 27px;
+    width: 60%;
+    
+
+}
+
+
+
+.Newsletter a.btn{
+    background-color: #ead4b0;
+    color: #000;
+    border-radius: 10px;
+    padding: 12px 40px;
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+   margin-top: 20px;
+}
+
+.footer{
+    background-color: #f5e0cb;
+    height: 260px;
+    position: relative;
+    width: 100%;
+
+}
+.footer .icons{
+    text-align: center;
+    color: #8e8e8e;
+    font-size: 50px;
+    padding-bottom: 27px;
+}
+.footer p{
+    font-size: 18px;
+    font-family: "Work Sans", sans-serif;
+    color: #8d7863;
+    line-height: 32px;
+    text-align: center;
+    padding-bottom: 50px;
+  
+}
+
+.footer p span{
+    color: #8e8e8e;
+    font-size: 20px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
